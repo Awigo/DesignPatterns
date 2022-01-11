@@ -3,7 +3,7 @@ package com.epam.patterns.proxy;
 /**
  * @author Adam Awizen
  */
-class HeavyService implements Service {
+final class HeavyService implements Service {
     @Override
     public long calculate(int i) {
         long sum = 0;

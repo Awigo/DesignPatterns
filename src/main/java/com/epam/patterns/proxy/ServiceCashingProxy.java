@@ -6,12 +6,12 @@ import java.util.Map;
 /**
  * @author Adam Awizen
  */
-class ServiceProxy implements Service {
+final class ServiceCashingProxy implements Service {
 
     private final Service service;
     private final Map<Integer, Long> responses = new HashMap<>();
 
-    ServiceProxy(Service service) {
+    ServiceCashingProxy(Service service) {
         this.service = service;
     }
 
