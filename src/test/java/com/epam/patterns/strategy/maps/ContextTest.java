@@ -1,4 +1,4 @@
-package com.epam.patterns.strategy;
+package com.epam.patterns.strategy.maps;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

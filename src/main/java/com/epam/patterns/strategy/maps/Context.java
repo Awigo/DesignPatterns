@@ -1,4 +1,4 @@
-package com.epam.patterns.strategy;
+package com.epam.patterns.strategy.maps;
 
 /**
  * @author Adam Awizen
